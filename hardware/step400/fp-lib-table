@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "step_series") (type "KiCad") (uri "${KIPRJMOD}/../lib/step_series.pretty") (options "") (descr "STEP series shared footprints"))
+)

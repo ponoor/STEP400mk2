@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# KiCad: locks, backups, caches, per-user settings
+*.lck
+.history/
+*-backups/
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*.bak
+
+# KiCad: outputs exported during day-to-day work
+# (released manufacturing data goes in production/ and is added explicitly)
+hardware/**/gerber/
+hardware/**/*.gbr
+hardware/**/*.drl
+hardware/**/*-bom.csv
+hardware/**/*-pos.csv
+hardware/**/*.zip
+
+# PlatformIO / editors
+.pio/
+.vscode/
